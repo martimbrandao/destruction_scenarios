@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<package>
+  <name>destruction_scenarios</name>
+  <version>1.0.0</version>
+  <description>
+    A package containing several destruction scenarios for Gazebo,
+    with the goal of proving a uniform basis on which to test and
+    develop, for instance, search and rescue robots.
+
+    Developed and provided by Roboptics - http://www.roboptics.pt
+    For more information please contact us at info@roboptics.pt
+  </description>
+
+  <author>Roboptics</author>
+  <url> http://www.roboptics.pt </url>
+  <maintainer email="info@roboptics.pt">Roboptics</maintainer>
+
+  <license>GPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
