@@ -16,7 +16,7 @@
   <url> http://www.roboptics.pt </url>
   <maintainer email="info@roboptics.pt">Roboptics</maintainer>
 
-  <license>TODO</license>
+  <license>GPL</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 </package>
