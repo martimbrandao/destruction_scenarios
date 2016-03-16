@@ -1,24 +1,6 @@
-## destruction_scenarios (indigo) - 1.0.0-0
-
-The packages in the `destruction_scenarios` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo destruction_scenarios --edit` on `Wed, 16 Mar 2016 13:31:25 -0000`
-
-The `destruction_scenarios` package was released.
-
-Version of package(s) in repository `destruction_scenarios`:
-
-- upstream repository: https://github.com/roboptics/destruction_scenarios.git
-- release repository: unknown
-- rosdistro version: `null`
-- old version: `null`
-- new version: `1.0.0-0`
-
-Versions of tools used:
-
-- bloom version: `0.5.21`
-- catkin_pkg version: `0.2.10`
-- rosdep version: `0.11.4`
-- rosdistro version: `0.4.4`
-- vcstools version: `0.1.38`
-
-
 # destruction_scenarios
+This repository contains the source code for the Destruction Scenarios ROS package. The package provides two different destrucion scenarios: a house/building and a garage. Each of these scenarios are available in three forms: easy, intermediate and hard. These "difficulty levels" were chosen according to the level of destruction, i.e., according to the difficulty of transversing the terrain on each level.
+
+These levels have a launch file associated to each one, and use Gazebo to provide the simulation. According to the needs of each user, these launch files can be included in another, user-specified launch file that also launches the robot.
+
+Our goal is to provide a simulation platform where Search and Rescue robot developers can test their robots in common destruction scenarios. We invite anyone to contribute to this package, and we have also made available a different repository with the scripts which were created to generate the scenarios that can be used to generate different ones (this second repository is available at https://github.com/roboptics/destruction_scenarios_generator).
